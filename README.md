@@ -11,7 +11,7 @@ Cleaner, more uniform code is easier to read and maintain, and facilitates a sta
 ## How this boilerplate is intended to work:
 1. When you try to commit code, Husky will first check that your staged .js files are properly formatted using Prettier
 2. Husky will then check if your code is properly linted with ESLint using the options set in .eslintrc.js
-3. If either of these steps fail, HUsky will stop you from committing the 'bad' code
+3. If either of these steps fail, Husky will stop you from committing the 'bad' code
 
 ## Default behavior/trying it out:
 - This boilerplate recursively formats and lints all **staged** .js files
