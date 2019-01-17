@@ -1,6 +1,9 @@
 # eslint-prettier-husky-boilerplate
 This is a boilerplate that leverages Prettier, ESLint, and Husky for use with NodeJS and React projects.
 
+## Feedback welcome:
+I am open to feedback on this boilerplate, but keep in mind that this particular boilerplate is meant to be broad in scope so that it can be used on both NodeJS and React projects.
+
 ## Background:
 Cleaner, more uniform code is easier to read and maintain, and facilitates a standard across development teams of all sizes. Using these tools, it's possible to stop poorly formated and unlinted code from entering source control.
 
@@ -29,8 +32,8 @@ Cleaner, more uniform code is easier to read and maintain, and facilitates a sta
 - `npm run lint` looks at **all** files for ESLint-related violations, and shows these violations in the command line
 - `npm run lint-fix` looks at **all** unignored .js files for ESLint-related violations, shows them in the command line, and fixes the issues that it can
 - `npm run format` looks at **all** unignored .js files and formats them 
-- `npm run format-test` looks at *all** unignored .js files and tests if they are properly formatted
-- All of these behaviors can be easily modified in the package.json file 
+- `npm run format-test` looks at **all** unignored .js files and tests if they are properly formatted
+- All of these behaviors can be easily modified in the package.json file scripts section 
 
 ## Changes you will probably make:
 - The script section in package.json. You may want to, for example, lint/format the src folder
